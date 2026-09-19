@@ -16,9 +16,15 @@ This repository documents the KiCad schematics, PCB layout files, custom Betafli
 
 ---
 
-![](![alt text](pcb.png))
+## Hardware Overview
 
-![](![alt text](sch.png))
+### PCB Layout
+
+![PCB Layout](pcb.png)
+
+### Schematic
+
+![Schematic](sch.png)
 
 ---
 

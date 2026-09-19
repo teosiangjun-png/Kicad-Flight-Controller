@@ -1,30 +1,31 @@
 Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet
-C1,C2,C3,C4,C5,C14,C15,C16,C17,C18,C30,C32	12	100nF				Capacitor_SMD:C_0402_1005Metric	
+C1,C2,C3,C4,C5,C15,C16,C30,C32,C35	10	100nF				Capacitor_SMD:C_0402_1005Metric	
 C6,C23,C24,C25	4	1uF				Capacitor_SMD:C_0402_1005Metric	
-C7,C10	2	10uF				Capacitor_SMD:C_0603_1608Metric	
-C8,C9	2	10uF				Capacitor_SMD:C_0805_2012Metric	
-C11,C12,C13,C20,C21	5	22uF				Capacitor_SMD:C_0805_2012Metric	
-C19	1	0.1uF				Capacitor_SMD:C_0402_1005Metric	
-C22	1	2.2uF				Capacitor_SMD:C_1206_3216Metric	
+C7	1	25V100UF CD110				easyeda2kicad:CAP-TH_BD6.3-P2.50-D0.5-FD	https://www.lcsc.com/datasheet/C2960218.pdf
+C17	1	10nF				Capacitor_SMD:C_0402_1005Metric	
+C18,C19,C33,C37	4	0.1uF				Capacitor_SMD:C_0402_1005Metric	
+C20,C21	2	22uF				Capacitor_SMD:C_0805_2012Metric	
+C22,C36	2	2.2uF				Capacitor_SMD:C_1206_3216Metric	
 C26,C27	2	20pF				Capacitor_SMD:C_0402_1005Metric	
 C28,C29	2	6.8pF				Capacitor_SMD:C_0402_1005Metric	
-C31	1	2.2uF				Capacitor_SMD:C_0603_1608Metric	
+C31,C34	2	2.2uF				Capacitor_SMD:C_0603_1608Metric	
+C38,C39	2	22uF				Capacitor_SMD:C_1206_3216Metric	
 CN1	1	WAFER-SH1.0-8PWB				easyeda2kicad:CONN-SMD_8P-P1.00_XUNPU_WAFER-SH1.0-8PWB	https://www.lcsc.com/datasheet/C3029347.pdf
-J1,J2,J3	3	Conn_01x01_Pin				TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm	
+J1,J2,J3,J4,J5	5	Conn_01x01_Pin				TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm	
 L1	1	FCM1608KF-601T03				easyeda2kicad:L0603	https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors_600R-25-at100MHz_C141723.html
-L2	1	1.5uH				easyeda2kicad:IND-SMD_L4.0-W4.0-A	
 L3	1	5.6uH				easyeda2kicad:IND-SMD_L3.0-W3.0	
+L4	1	6.8uH				easyeda2kicad:IND-SMD_L3.0-W3.0	
 R1,R2	2	5.1K				Resistor_SMD:R_0402_1005Metric	
-R3,R5,R12	3	10k				Resistor_SMD:R_0402_1005Metric	
+R3,R5	2	10k				Resistor_SMD:R_0402_1005Metric	
 R4	1	1k				Resistor_SMD:R_0402_1005Metric	
-R13,R14	2	100k				Resistor_SMD:R_0402_1005Metric	
+R14,R16	2	100k				Resistor_SMD:R_0402_1005Metric	
 R15	1	22.1k				Resistor_SMD:R_0402_1005Metric	
+R17	1	13.7k				Resistor_SMD:R_0402_1005Metric	
 SW1,SW2	2	TS-1088-AR02016				easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45	https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html
 U1	1	BMP580				easyeda2kicad:LGA-10_L2.0-W2.0-P0.50-TL_BMP580	https://www.lcsc.com/datasheet/C22391138.pdf
-U3	1	ICM-45686				easyeda2kicad:LGA-14_L3.0-W2.5-P0.50-TL	https://www.lcsc.com/datasheet/C22459454.pdf
-U5	1	LMR51430XDDCR				easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL	https://www.lcsc.com/datasheet/C5185863.pdf
-U6	1	TPS63070RNMR				easyeda2kicad:VQFN-15_L3.0-W2.5-P0.50-BL	https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS63070RNMR_TPS63070RNMR_C109322.html
-U7	1	STM32F722RET6				easyeda2kicad:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL	https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32F722RET6_STM32F722RET6_C118207.html
+U2	1	MPU6500				easyeda2kicad:QFN-24_L3.0-W3.0-P0.40-BL-EP	https://lcsc.com/product-detail/Processors-Microcontrollers_InvenSense_MPU6500_MPU6500_C50278.html
+U3	1	STM32F405RGT6				easyeda2kicad:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL	https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32F405RGT6_STM32F405RGT6_C15742.html
+U5,U6	2	LMR51430XDDCR				easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL	https://www.lcsc.com/datasheet/C5185863.pdf
 USB1	1	TYPE-C 16PIN 2MD				easyeda2kicad:USB-C-SMD_TYPE-C-16PIN-2MD-073	https://www.lcsc.com/datasheet/C2765186.pdf
 X1	1	X322525MOB4SI				easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL	https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-25MHZ-12PF-10PPM-40-85_C9006.html
 X2	1	Q13FC1350000400				easyeda2kicad:FC-135R_L3.2-W1.5	https://lcsc.com/product-detail/SMD-Crystals_EPSON_Q13FC1350000400_32-768KHz-20ppm-12-5pF_C32346.html
